@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Class 11 Physics Chapter 1: Units and Measurements — detailed notes, dimensional formulae, solved examples, PYQ-style questions and interactive quiz by Dr. V. Sesha Sai Kumar, Master JEE Academy, Hyderabad.">
+<title>Class 11 Physics | Units and Measurements — Master JEE Academy</title>
+<style>
+:root{--ink:#172033;--muted:#596579;--brand:#174ea6;--brand2:#0f766e;--paper:#fff;--bg:#f3f6fb;--line:#dce3ee;--soft:#edf4ff;--green:#eaf8f0;--orange:#fff5e7;--shadow:0 8px 28px rgba(20,40,80,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.68 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:linear-gradient(135deg,#0a2540,#174ea6,#0f766e);color:#fff;padding:52px 20px 42px;box-shadow:0 4px 20px rgba(0,0,0,0.15)}header .wrap{max-width:1100px;margin:auto}header h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;margin:8px 0}header p{max-width:820px;color:#e4efff;margin:12px 0}.tag{display:inline-block;border:1px solid #ffffff66;border-radius:30px;padding:4px 12px;font-size:.82rem;margin:0 6px 6px 0;background:rgba(255,255,255,0.1);font-weight:600}
+.faculty-badge{background:rgba(255,255,255,0.15);border-left:4px solid #4ade80;padding:12px 18px;border-radius:0 8px 8px 0;margin:18px 0 8px;font-size:1.05rem}
+.layout{max-width:1200px;margin:24px auto;padding:0 16px;display:grid;grid-template-columns:255px minmax(0,1fr);gap:22px}.sidebar{position:sticky;top:16px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:17px;box-shadow:var(--shadow);max-height:calc(100vh - 32px);overflow:auto}.sidebar strong{display:block;margin-bottom:8px;color:#153c72}.sidebar a{display:block;text-decoration:none;color:#34435b;padding:6px 8px;border-radius:7px;font-size:.91rem;transition:all 0.2s}.sidebar a:hover{background:var(--soft);color:var(--brand);transform:translateX(3px)}
+main{min-width:0}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,30px);margin-bottom:18px;box-shadow:var(--shadow)}h2{font-size:1.55rem;line-height:1.25;margin:0 0 14px;color:#153c72;border-bottom:2px solid #e5edf8;padding-bottom:9px}h3{font-size:1.15rem;margin:23px 0 8px;color:#174b78}h4{margin:16px 0 5px}p{margin:8px 0}ul,ol{padding-left:24px}li{margin:4px 0}.eq{background:#f5f8fd;border-left:4px solid var(--brand);padding:11px 15px;margin:12px 0;border-radius:7px;font-family:Cambria,"Times New Roman",serif;font-size:1.08rem;overflow-x:auto;line-height:1.9}.eq mjx-container{max-width:100%;overflow-x:auto;overflow-y:hidden}.note{background:var(--soft);border:1px solid #d5e5ff;padding:13px 16px;border-radius:9px;margin:13px 0}.success{background:var(--green);border:1px solid #c9ead6;padding:12px 15px;border-radius:9px;margin:12px 0}.warning{background:var(--orange);border:1px solid #f3dfbd;padding:12px 15px;border-radius:9px;margin:12px 0}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.94rem}.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}.table-wrap table{min-width:850px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:#edf3fb;color:#203c62}tr:nth-child(even) td{background:#fbfcfe}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tile{background:#f7faff;border:1px solid var(--line);padding:14px;border-radius:10px}.tile b{color:#174b78}.question{padding:14px 0;border-bottom:1px solid var(--line)}.question:last-child{border:0}.options label{display:block;padding:6px 10px;cursor:pointer;border-radius:6px;transition:background 0.15s}.options label:hover{background:#edf3fb}.feedback{font-size:.92rem;margin-top:7px;padding:8px 10px;border-radius:7px;display:none}.correct{display:block;background:#e8f7ed;color:#176236}.incorrect{display:block;background:#fff0ee;color:#9a2d20}
+button{border:0;background:var(--brand);color:#fff;border-radius:8px;padding:10px 16px;font-size:1rem;cursor:pointer;margin:8px 6px 4px 0;transition:filter 0.2s}button.secondary{background:#e9eef6;color:#20344f}button:hover{filter:brightness(1.08)}.score{font-weight:700;font-size:1.15rem;margin-top:10px}
+footer{text-align:center;color:var(--muted);padding:28px 15px;font-size:.9rem}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.sidebar{position:static;max-height:none}.sidebar nav{columns:2}.grid2{grid-template-columns:1fr}}
+</style>
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] },
+  chtml: { scale: 1.05 }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+</head>
+<body>
+<header><div class="wrap">
+<div class="tag">CLASS 11 PHYSICS</div><div class="tag">JEE MAIN • JEE ADVANCED • NEET</div>
+<h1>Chapter 1: Units and Measurements</h1>
+<p>Comprehensive mastery notes, dimensional formulae, derivations, solved examples, and interactive self-evaluation tools designed for high-achieving aspirants.</p>
+<div class="faculty-badge">
+  <strong>Lead Faculty & Academic Director:</strong> Dr. V. Sesha Sai Kumar &nbsp;|&nbsp; <strong>Master JEE Academy, Hyderabad</strong>
+</div>
+</div></header>
+
+<div class="layout">
+<aside class="sidebar"><strong>Chapter contents</strong><nav>
+<a href="#intro">1. Physical quantities</a>
+<a href="#systems">2. Systems of units</a>
+<a href="#dimensions">3. Dimensions</a>
+<a href="#formulae">4. Dimensional formulae</a>
+<a href="#homogeneity">5. Homogeneity</a>
+<a href="#applications">6. Applications</a>
+<a href="#derivations">7. Derivations</a>
+<a href="#limitations">8. Limitations</a>
+<a href="#conversion">9. Unit conversion</a>
+<a href="#revision">10. Revision sheet</a>
+<a href="#pyq">11. Exam questions</a>
+<a href="#practice">12. Practice problems</a>
+<a href="#quiz">13. Interactive quiz</a>
+
+</nav></aside>
+
+<main>
+<section class="card" id="intro"><h2>1. Physical Quantities</h2>
+<h3>1.1 Meaning of a physical quantity</h3>
+<p>A physical quantity is a measurable property of a physical system that can be expressed as a numerical value multiplied by a unit.</p>
+<div class="eq">Q = n × u</div>
+<p>Here, <b>Q</b> is the physical quantity, <b>n</b> is its numerical value and <b>u</b> is its unit. For example, a rod of length 5 m has numerical value 5 and unit metre.</p>
+<div class="note"><b>Change of unit:</b> The numerical value changes when the unit changes, but the physical quantity remains the same. For example, 1 m = 100 cm.</div>
+
+<h3>1.2 Classification: scalar and vector quantities</h3>
+<div class="grid2">
+  <div class="tile"><b>Scalar quantities</b><p>Described by magnitude only. Examples: distance, speed, mass, time and energy.</p></div>
+  <div class="tile"><b>Vector quantities</b><p>Require magnitude and direction. Examples: displacement, velocity, acceleration, force and momentum.</p></div>
+</div>
+
+<h3>1.3 Fundamental quantities</h3>
+<p>Fundamental quantities are independent quantities that are not expressed in terms of other physical quantities. The SI system has seven base quantities.</p>
+<table>
+  <tr><th>Fundamental quantity</th><th>SI unit</th><th>Symbol</th></tr>
+  <tr><td>Length</td><td>metre</td><td>m</td></tr>
+  <tr><td>Mass</td><td>kilogram</td><td>kg</td></tr>
+  <tr><td>Time</td><td>second</td><td>s</td></tr>
+  <tr><td>Electric current</td><td>ampere</td><td>A</td></tr>
+  <tr><td>Thermodynamic temperature</td><td>kelvin</td><td>K</td></tr>
+  <tr><td>Amount of substance</td><td>mole</td><td>mol</td></tr>
+  <tr><td>Luminous intensity</td><td>candela</td><td>cd</td></tr>
+</table>
+
+<h3>1.4 Derived quantities</h3>
+<p>Derived quantities are obtained by combining fundamental quantities mathematically.</p>
+<table>
+  <tr><th>Quantity</th><th>Relation</th><th>SI unit</th></tr>
+  <tr><td>Area</td><td>length × breadth</td><td>m²</td></tr>
+  <tr><td>Volume</td><td>length × breadth × height</td><td>m³</td></tr>
+  <tr><td>Velocity</td><td>displacement / time</td><td>m s⁻¹</td></tr>
+  <tr><td>Acceleration</td><td>change in velocity / time</td><td>m s⁻²</td></tr>
+  <tr><td>Force</td><td>mass × acceleration</td><td>newton (N)</td></tr>
+  <tr><td>Work</td><td>force × displacement</td><td>joule (J)</td></tr>
+  <tr><td>Power</td><td>work / time</td><td>watt (W)</td></tr>
+  <tr><td>Pressure</td><td>force / area</td><td>pascal (Pa)</td></tr>
+</table>
+</section>
+
+<section class="card" id="systems"><h2>2. Systems of Units</h2>
+<p>A system of units is a set of standard units used to measure physical quantities.</p>
+<table>
+  <tr><th>Quantity</th><th>CGS</th><th>MKS</th><th>FPS</th></tr>
+  <tr><td>Length</td><td>centimetre</td><td>metre</td><td>foot</td></tr>
+  <tr><td>Mass</td><td>gram</td><td>kilogram</td><td>pound</td></tr>
+  <tr><td>Time</td><td>second</td><td>second</td><td>second</td></tr>
+  <tr><td>Force</td><td>dyne</td><td>newton</td><td>poundal (in absolute FPS)</td></tr>
+  <tr><td>Work</td><td>erg</td><td>joule</td><td>foot-pound</td></tr>
+</table>
+<ul>
+  <li><b>CGS:</b> centimetre–gram–second.</li>
+  <li><b>MKS:</b> metre–kilogram–second.</li>
+  <li><b>FPS:</b> foot–pound–second.</li>
+</ul>
+<div class="success"><b>Important conversions:</b><br>1 m = 100 cm; 1 kg = 1000 g; 1 N = 10⁵ dyne; 1 J = 10⁷ erg.</div>
+</section>
+
+<section class="card" id="dimensions"><h2>3. Dimensions and Dimensional Formulae</h2>
+<h3>3.1 Meaning of dimensions</h3>
+<p>Dimensions indicate the powers of fundamental quantities used to represent a physical quantity. In mechanics, base dimensions are mass M, length L and time T. Electric current A and temperature K are added when required.</p>
+<div class="eq">[Q] = [Mᵃ Lᵇ Tᶜ]</div>
+
+<h3>3.2 Worked derivations</h3>
+<h4>Velocity</h4><div class="eq">v = displacement / time<br>[v] = L / T = [LT⁻¹]</div>
+<h4>Acceleration</h4><div class="eq">a = velocity / time<br>[a] = [LT⁻¹] / [T] = [LT⁻²]</div>
+<h4>Force</h4><div class="eq">F = ma<br>[F] = [M][LT⁻²] = [MLT⁻²]</div>
+<h4>Work</h4><div class="eq">W = F × displacement<br>[W] = [MLT⁻²][L] = [ML²T⁻²]</div>
+<h4>Power</h4><div class="eq">P = W / t<br>[P] = [ML²T⁻²] / [T] = [ML²T⁻³]</div>
+<h4>Pressure</h4><div class="eq">p = F / A<br>[p] = [MLT⁻²] / [L²] = [ML⁻¹T⁻²]</div>
+<div class="note"><b>Unit versus dimension:</b> metre per second is a unit of velocity; [LT⁻¹] is its dimensional formula. Units can change across systems, but dimensions remain invariant.</div>
+</section>
+
+<section class="card" id="formulae"><h2>4. Important Dimensional Formulae with Derivations</h2>
+<p>For every physical quantity, begin with its defining equation, substitute the dimensions of the fundamental quantities, simplify the powers, and write the final dimensional formula. In this section, \(M,L,T,I,\Theta\) represent mass, length, time, electric current and thermodynamic temperature respectively. (The symbol \(I\) is used for current and \(\Theta\) for temperature.)</p>
+<div class="note"><b>Method:</b> Physical equation → rearrange for the required quantity → substitute dimensions → simplify → box the result. Angles and pure numbers are dimensionless.</div>
+<h3>4.1 Mechanics</h3>
+<div class="table-wrap"><table>
+<tr><th>Quantity</th><th>Defining formula</th><th>Dimensional substitution</th><th>Final dimension</th></tr>
+<tr><td>Displacement</td><td>\(s=x_2-x_1\)</td><td>Length</td><td>\([L]\)</td></tr>
+<tr><td>Velocity</td><td>\(v=s/t\)</td><td>\(L/T\)</td><td>\([LT^{-1}]\)</td></tr>
+<tr><td>Acceleration</td><td>\(a=v/t\)</td><td>\(LT^{-1}/T\)</td><td>\([LT^{-2}]\)</td></tr>
+<tr><td>Momentum</td><td>\(p=mv\)</td><td>\(M\times LT^{-1}\)</td><td>\([MLT^{-1}]\)</td></tr>
+<tr><td>Impulse</td><td>\(J=F\Delta t\)</td><td>\(MLT^{-2}\times T\)</td><td>\([MLT^{-1}]\)</td></tr>
+<tr><td>Force</td><td>\(F=ma\)</td><td>\(M\times LT^{-2}\)</td><td>\([MLT^{-2}]\)</td></tr>
+<tr><td>Work / energy</td><td>\(W=Fs\)</td><td>\(MLT^{-2}\times L\)</td><td>\([ML^2T^{-2}]\)</td></tr>
+<tr><td>Torque</td><td>\(\tau=Fr\)</td><td>\(MLT^{-2}\times L\)</td><td>\([ML^2T^{-2}]\)</td></tr>
+<tr><td>Power</td><td>\(P=W/t\)</td><td>\(ML^2T^{-2}/T\)</td><td>\([ML^2T^{-3}]\)</td></tr>
+<tr><td>Pressure / stress</td><td>\(p=F/A\)</td><td>\(MLT^{-2}/L^2\)</td><td>\([ML^{-1}T^{-2}]\)</td></tr>
+<tr><td>Density</td><td>\(\rho=m/V\)</td><td>\(M/L^3\)</td><td>\([ML^{-3}]\)</td></tr>
+<tr><td>Angular momentum</td><td>\(L=I_{rot}\omega\)</td><td>\(ML^2\times T^{-1}\)</td><td>\([ML^2T^{-1}]\)</td></tr>
+<tr><td>Moment of inertia</td><td>\(I_{rot}=mr^2\)</td><td>\(M\times L^2\)</td><td>\([ML^2]\)</td></tr>
+<tr><td>Angular velocity / frequency</td><td>\(\omega=\theta/t,\ f=1/T_p\)</td><td>Angle is dimensionless; inverse time</td><td>\([T^{-1}]\)</td></tr>
+<tr><td>Angular acceleration</td><td>\(\alpha=\omega/t\)</td><td>\(T^{-1}/T\)</td><td>\([T^{-2}]\)</td></tr>
+<tr><td>Spring constant</td><td>\(F=kx\Rightarrow k=F/x\)</td><td>\(MLT^{-2}/L\)</td><td>\([MT^{-2}]\)</td></tr>
+<tr><td>Gravitational constant</td><td>\(F=Gm_1m_2/r^2\)</td><td>\(G=Fr^2/(m_1m_2)\)</td><td>\([M^{-1}L^3T^{-2}]\)</td></tr>
+<tr><td>Young's / bulk / shear modulus</td><td>\(Y=\text{stress}/\text{strain}\)</td><td>\(ML^{-1}T^{-2}/1\)</td><td>\([ML^{-1}T^{-2}]\)</td></tr>
+</table></div>
+<h4>Key derivations in mechanics</h4>
+<div class="eq"><b>Gravitational constant:</b><br>\(F=\frac{Gm_1m_2}{r^2}\Rightarrow G=\frac{Fr^2}{m_1m_2}\)<br>\([G]=\frac{[MLT^{-2}][L^2]}{[M][M]}=\boxed{[M^{-1}L^3T^{-2}]}\)</div>
+<div class="eq"><b>Spring constant:</b><br>\(F=kx\Rightarrow [k]=\frac{[F]}{[x]}=\frac{[MLT^{-2}]}{[L]}=\boxed{[MT^{-2}]}\)</div>
+<div class="eq"><b>Angular momentum:</b><br>\(L=I_{rot}\omega\Rightarrow [L]=[ML^2][T^{-1}]=\boxed{[ML^2T^{-1}]}\)</div>
+
+<h3>4.2 Properties of Matter and Thermal Physics</h3>
+<div class="table-wrap"><table>
+<tr><th>Quantity</th><th>Defining formula</th><th>Dimensional substitution</th><th>Final dimension</th></tr>
+<tr><td>Surface tension</td><td>\(S=F/l\)</td><td>\(MLT^{-2}/L\)</td><td>\([MT^{-2}]\)</td></tr>
+<tr><td>Dynamic viscosity</td><td>\(F=\eta A\,dv/dx\)</td><td>\(MLT^{-2}/(L^2T^{-1})\)</td><td>\([ML^{-1}T^{-1}]\)</td></tr>
+<tr><td>Strain</td><td>\(\epsilon=\Delta l/l\)</td><td>\(L/L\)</td><td>Dimensionless</td></tr>
+<tr><td>Heat / energy</td><td>\(Q=mc\Delta\Theta\)</td><td>\(M\times L^2T^{-2}\Theta^{-1}\times\Theta\)</td><td>\([ML^2T^{-2}]\)</td></tr>
+<tr><td>Specific heat capacity</td><td>\(c=Q/(m\Delta\Theta)\)</td><td>\(ML^2T^{-2}/(M\Theta)\)</td><td>\([L^2T^{-2}\Theta^{-1}]\)</td></tr>
+<tr><td>Heat capacity</td><td>\(C=Q/\Delta\Theta\)</td><td>\(ML^2T^{-2}/\Theta\)</td><td>\([ML^2T^{-2}\Theta^{-1}]\)</td></tr>
+<tr><td>Specific latent heat</td><td>\(L_s=Q/m\)</td><td>\(ML^2T^{-2}/M\)</td><td>\([L^2T^{-2}]\)</td></tr>
+<tr><td>Thermal conductivity</td><td>\(K=Ql/(At\Delta\Theta)\)</td><td>\(ML^2T^{-2}L/(L^2T\Theta)\)</td><td>\([MLT^{-3}\Theta^{-1}]\)</td></tr>
+<tr><td>Stefan–Boltzmann constant</td><td>\(P=\sigma A\Theta^4\)</td><td>\(ML^2T^{-3}/(L^2\Theta^4)\)</td><td>\([MT^{-3}\Theta^{-4}]\)</td></tr>
+<tr><td>Wien displacement constant</td><td>\(b=\lambda_{max}\Theta\)</td><td>\(L\times\Theta\)</td><td>\([L\Theta]\)</td></tr>
+<tr><td>Boltzmann constant</td><td>\(E=k_B\Theta\)</td><td>\(ML^2T^{-2}/\Theta\)</td><td>\([ML^2T^{-2}\Theta^{-1}]\)</td></tr>
+<tr><td>Planck constant</td><td>\(E=hf\)</td><td>\(ML^2T^{-2}/T^{-1}\)</td><td>\([ML^2T^{-1}]\)</td></tr>
+</table></div>
+<h4>Key derivations in thermal physics</h4>
+<div class="eq"><b>Surface tension:</b><br>\([S]=[F]/[l]=[MLT^{-2}]/[L]=\boxed{[MT^{-2}]}\)</div>
+<div class="eq"><b>Dynamic viscosity:</b><br>\(F=\eta A\frac{dv}{dx}\Rightarrow [\eta]=\frac{[F]}{[A][dv/dx]}\)<br>\([\eta]=\frac{[MLT^{-2}]}{[L^2][T^{-1}]}=\boxed{[ML^{-1}T^{-1}]}\)</div>
+<div class="eq"><b>Specific heat capacity:</b><br>\(Q=mc\Delta\Theta\Rightarrow [c]=\frac{[Q]}{[m][\Delta\Theta]}=\frac{[ML^2T^{-2}]}{[M][\Theta]}=\boxed{[L^2T^{-2}\Theta^{-1}]}\)</div>
+<div class="eq"><b>Stefan–Boltzmann constant:</b><br>\(P=\sigma A\Theta^4\Rightarrow [\sigma]=\frac{[P]}{[A][\Theta]^4}=\frac{[ML^2T^{-3}]}{[L^2][\Theta^4]}=\boxed{[MT^{-3}\Theta^{-4}]}\)</div>
+<div class="eq"><b>Planck constant:</b><br>\(E=hf\Rightarrow [h]=[E]/[f]=[ML^2T^{-2}]/[T^{-1}]=\boxed{[ML^2T^{-1}]}\)</div>
+
+<h3>4.3 Electricity and Magnetism</h3>
+<div class="table-wrap"><table>
+<tr><th>Quantity</th><th>Defining formula</th><th>Dimensional substitution</th><th>Final dimension</th></tr>
+<tr><td>Electric charge</td><td>\(q=It\)</td><td>\(I\times T\)</td><td>\([IT]\)</td></tr>
+<tr><td>Electric current</td><td>\(I=q/t\)</td><td>Charge / time</td><td>\([I]\)</td></tr>
+<tr><td>Potential difference</td><td>\(V=W/q\)</td><td>\(ML^2T^{-2}/(IT)\)</td><td>\([ML^2T^{-3}I^{-1}]\)</td></tr>
+<tr><td>Electric field</td><td>\(E=F/q\)</td><td>\(MLT^{-2}/(IT)\)</td><td>\([MLT^{-3}I^{-1}]\)</td></tr>
+<tr><td>Resistance</td><td>\(R=V/I\)</td><td>\(ML^2T^{-3}I^{-1}/I\)</td><td>\([ML^2T^{-3}I^{-2}]\)</td></tr>
+<tr><td>Resistivity</td><td>\(\rho=RA/l\)</td><td>\(ML^2T^{-3}I^{-2}L^2/L\)</td><td>\([ML^3T^{-3}I^{-2}]\)</td></tr>
+<tr><td>Capacitance</td><td>\(C=q/V\)</td><td>\(IT/(ML^2T^{-3}I^{-1})\)</td><td>\([M^{-1}L^{-2}T^4I^2]\)</td></tr>
+<tr><td>Magnetic field</td><td>\(F=BIl\)</td><td>\(MLT^{-2}/(IL)\)</td><td>\([MT^{-2}I^{-1}]\)</td></tr>
+<tr><td>Magnetic flux</td><td>\(\Phi=BA\)</td><td>\(MT^{-2}I^{-1}L^2\)</td><td>\([ML^2T^{-2}I^{-1}]\)</td></tr>
+<tr><td>Inductance</td><td>\(L_{ind}=\Phi/I\)</td><td>\(ML^2T^{-2}I^{-1}/I\)</td><td>\([ML^2T^{-2}I^{-2}]\)</td></tr>
+<tr><td>Permittivity</td><td>\(C=\epsilon A/d\)</td><td>\(\epsilon=Cd/A\)</td><td>\([M^{-1}L^{-3}T^4I^2]\)</td></tr>
+<tr><td>Permeability</td><td>\(B=\mu I/l\)</td><td>\(\mu=Bl/I\)</td><td>\([MLT^{-2}I^{-2}]\)</td></tr>
+</table></div>
+<h4>Key derivations in electricity and magnetism</h4>
+<div class="eq"><b>Potential difference:</b><br>\(V=\frac{W}{q}\Rightarrow [V]=\frac{[ML^2T^{-2}]}{[IT]}=\boxed{[ML^2T^{-3}I^{-1}]}\)</div>
+<div class="eq"><b>Resistance:</b><br>\(R=\frac{V}{I}\Rightarrow [R]=\frac{[ML^2T^{-3}I^{-1}]}{[I]}=\boxed{[ML^2T^{-3}I^{-2}]}\)</div>
+<div class="eq"><b>Resistivity:</b><br>\(R=\frac{\rho l}{A}\Rightarrow [\rho]=\frac{[R][A]}{[l]}=\frac{[ML^2T^{-3}I^{-2}][L^2]}{[L]}=\boxed{[ML^3T^{-3}I^{-2}]}\)</div>
+<div class="eq"><b>Magnetic field:</b><br>\(F=qvB\Rightarrow [B]=\frac{[F]}{[q][v]}=\frac{[MLT^{-2}]}{[IT][LT^{-1}]}=\boxed{[MT^{-2}I^{-1}]}\)</div>
+<div class="eq"><b>Capacitance:</b><br>\(C=\frac{q}{V}\Rightarrow [C]=\frac{[IT]}{[ML^2T^{-3}I^{-1}]}=\boxed{[M^{-1}L^{-2}T^4I^2]}\)</div>
+<div class="eq"><b>Permittivity:</b><br>\(C=\frac{\epsilon_0 A}{d}\Rightarrow [\epsilon_0]=\frac{[C][d]}{[A]}=\frac{[M^{-1}L^{-2}T^4I^2][L]}{[L^2]}=\boxed{[M^{-1}L^{-3}T^4I^2]}\)</div>
+<div class="eq"><b>Permeability:</b><br>\(B=\frac{\mu_0 I}{l}\Rightarrow [\mu_0]=\frac{[B][l]}{[I]}=\frac{[MT^{-2}I^{-1}][L]}{[I]}=\boxed{[MLT^{-2}I^{-2}]}\)</div>
+
+<h3>4.4 Additional JEE Main and Advanced Formulae</h3>
+<div class="table-wrap"><table>
+<tr><th>Quantity</th><th>Formula</th><th>Dimensional formula</th></tr>
+<tr><td>Gravitational potential</td><td>\(V_g=GM/r\)</td><td>\([L^2T^{-2}]\)</td></tr>
+<tr><td>Escape velocity</td><td>\(v_e=\sqrt{2GM/R}\)</td><td>\([LT^{-1}]\)</td></tr>
+<tr><td>Kinematic viscosity</td><td>\(\nu=\eta/\rho\)</td><td>\([L^2T^{-1}]\)</td></tr>
+<tr><td>Compressibility</td><td>\(\beta=1/B\)</td><td>\([M^{-1}LT^2]\)</td></tr>
+<tr><td>Thermal diffusivity</td><td>\(D=K/(\rho c)\)</td><td>\([L^2T^{-1}]\)</td></tr>
+<tr><td>Electric dipole moment</td><td>\(p=qd\)</td><td>\([ILT]\)</td></tr>
+<tr><td>Current density</td><td>\(J=I/A\)</td><td>\([IL^{-2}]\)</td></tr>
+<tr><td>Drift mobility</td><td>\(\mu=v_d/E\)</td><td>\([M^{-1}T^2I]\)</td></tr>
+</table></div>
+<div class="warning"><b>Master Tip from Dr. V. Sesha Sai Kumar:</b> Derive dimensional formulae from definitions instead of memorising them alone. Give special attention to \(G\), \(h\), surface tension, viscosity, thermal constants, capacitance, resistance, permittivity and permeability.</div>
+<div class="note"><b>JEE reminder:</b> Use \(I\) for electric current and \(\Theta\) for temperature. Some textbooks write temperature as \(K\) and current as \(A\) in dimensional formulae; these are symbols for base dimensions, not SI units being multiplied into the formula.</div>
+</section>
+
+<section class="card" id="homogeneity"><h2>5. Principle of Homogeneity of Dimensions</h2>
+<p>In any physically meaningful equation, every term added or subtracted must possess identical dimensions. LHS and RHS dimensions must precisely match.</p>
+<div class="eq">If A = B + C, then [A] = [B] = [C].</div>
+
+<h3>Example 1: v = u + at</h3>
+<p>[v] = [LT⁻¹], [u] = [LT⁻¹], and [at] = [LT⁻²][T] = [LT⁻¹]. All terms are uniform.</p>
+<h3>Example 2: s = ut + ½at²</h3>
+<p>[s] = L; [ut] = [LT⁻¹][T] = L; [at²] = [LT⁻²][T²] = L. Dimensionally consistent.</p>
+<h3>Dimensionless quantities</h3>
+<p>Examples: strain, relative density, refractive index, coefficient of friction, Poisson's ratio, and plane angle (\(\theta = \frac{\text{arc length}}{\text{radius}} = \frac{L}{L} = 1\)). Trigonometric, exponential, and logarithmic functions must be strictly dimensionless.</p>
+</section>
+
+<section class="card" id="applications"><h2>6. Applications of Dimensional Analysis</h2>
+<h3>6.1 Checking equations</h3>
+<p>Testing v² = u² + 2as. Dimensions of v² and u² are [L²T⁻²]. Also [as] = [LT⁻²][L] = [L²T⁻²]. Verified.</p>
+<h3>6.2 Deriving relations &amp; converting units</h3>
+<p>Establishes dependencies between variables and converts values across unit systems.</p>
+</section>
+
+<section class="card" id="derivations"><h2>7. Derivations Using Dimensional Analysis</h2>
+<h3>7.1 Simple pendulum time period</h3>
+<p>Assume T depends on length l and gravitational acceleration g: \(T = k\,l^a g^b\).</p>
+<div class="eq">[T] = [L]^a[LT^{-2}]^b = [L^{a+b} T^{-2b}]</div>
+<p>Comparing powers gives \(a+b=0\) and \(-2b=1\), so \(b=-\frac12\) and \(a=\frac12\). Hence \(T=k\sqrt{\frac{l}{g}}\).</p>
+
+<h3>7.2 Orbital speed of a satellite</h3>
+<p>Assuming \(v=kG^aM^b r^c\). Comparing powers gives \(a=\frac12\), \(b=\frac12\), and \(c=-\frac12\). Therefore, \(v=k\sqrt{\frac{GM}{r}}\).</p>
+</section>
+
+<section class="card" id="limitations"><h2>8. Limitations of Dimensional Analysis</h2>
+<ol>
+  <li>Cannot determine pure numerical constants (e.g., \(2,\;\pi,\;\frac12\)).</li>
+  <li>Fails for additive/subtractive terms in equations.</li>
+  <li>Cannot handle trigonometric, exponential, or logarithmic functions.</li>
+  <li>Cannot distinguish between quantities with identical dimensions (e.g., work and torque).</li>
+  <li>Dimensional correctness does not guarantee physical validity.</li>
+</ol>
+</section>
+
+<section class="card" id="conversion"><h2>9. Unit Conversion</h2>
+<p>Scaling relation between systems: \(n_2=n_1\left(\frac{M_1}{M_2}\right)^a\left(\frac{L_1}{L_2}\right)^b\left(\frac{T_1}{T_2}\right)^c\).</p>
+<div class="eq">1 N = 10⁵ dyne &nbsp;|&nbsp; 1 J = 10⁷ erg &nbsp;|&nbsp; 50 kg/m³ = 0.05 g/cm³</div>
+</section>
+
+<section class="card" id="revision"><h2>10. Quick Revision Sheet</h2>
+<table>
+  <tr><th>Quantity</th><th>Dimensional formula</th></tr>
+  <tr><td>Velocity</td><td>LT⁻¹</td></tr>
+  <tr><td>Acceleration</td><td>LT⁻²</td></tr>
+  <tr><td>Force</td><td>MLT⁻²</td></tr>
+  <tr><td>Momentum</td><td>MLT⁻¹</td></tr>
+  <tr><td>Work / energy</td><td>ML²T⁻²</td></tr>
+  <tr><td>Power</td><td>ML²T⁻³</td></tr>
+  <tr><td>Pressure</td><td>ML⁻¹T⁻²</td></tr>
+  <tr><td>Density</td><td>ML⁻³</td></tr>
+  <tr><td>Gravitational constant</td><td>M⁻¹L³T⁻²</td></tr>
+  <tr><td>Planck constant</td><td>ML²T⁻¹</td></tr>
+  <tr><td>Surface tension</td><td>MT⁻²</td></tr>
+  <tr><td>Viscosity</td><td>ML⁻¹T⁻¹</td></tr>
+  <tr><td>Resistance</td><td>ML²T⁻³A⁻²</td></tr>
+  <tr><td>Capacitance</td><td>M⁻¹L⁻²T⁴A²</td></tr>
+</table>
+</section>
+
+<section class="card" id="pyq"><h2>11. Examination Questions with Solutions</h2>
+<div class="warning"><b>Note:</b> Carefully curated Master JEE Academy practice questions modelled after previous years' JEE Main and Advanced patterns.</div>
+
+<h3>Question 1: Magnetic field dimensions</h3>
+<p>Find the dimensional formula of magnetic field B using \(F=qvB\).</p>
+<div class="eq">[B] = [F]/([q][v]) = [MLT⁻²]/([AT][LT⁻¹]) = [MT⁻²A⁻¹]</div>
+
+<h3>Question 2: Maximum fractional error</h3>
+<p>If \(Q=X^{-2}Y^{3/2}Z^{-2/5}\) and fractional errors in \(X, Y, Z\) are \(0.1, 0.2, 0.5\), find maximum fractional error in \(Q\).</p>
+<div class="eq">\(\frac{\Delta Q}{Q}=2(0.1)+\frac{3}{2}(0.2)+\frac{2}{5}(0.5)=0.7=70\%\)</div>
+</section>
+
+<section class="card" id="practice"><h2>12. Additional Solved Practice Problems</h2>
+<h3>Spring Constant Problem</h3>
+<p><b>Question:</b> Find dimensions of \(k\) in \(F=kx\).<br><b>Answer:</b> \([k]=\frac{[F]}{[x]}=\frac{[MLT^{-2}]}{[L]}=[MT^{-2}]\).</p>
+</section>
+
+<section class="card" id="quiz">
+  <h2>13. Interactive Self-Test</h2>
+  <p>Select your answers below, then submit to check your score and instant explanations.</p>
+  <div id="quiz-area"></div>
+  <button id="submitQuiz">Submit answers</button>
+  <button class="secondary" id="resetQuiz">Reset quiz</button>
+  <div id="result" class="score" aria-live="polite"></div>
+</section>
+
+</main></div>
+
+<footer>Class 11 Physics · Units and Measurements · Curated by Dr. V. Sesha Sai Kumar, Master JEE Academy, Hyderabad. seshu.jntuh@gmail.com </footer>
+
+<script>
+const quiz=[
+{q:"The dimensional formula of energy is:",o:["MLT⁻²","ML²T⁻²","ML²T⁻³","ML⁻¹T⁻²"],a:1,e:"Energy = force × displacement = ML²T⁻²."},
+{q:"The dimensional formula of coefficient of viscosity is:",o:["MLT⁻²","ML⁻¹T⁻¹","ML²T⁻¹","MT⁻²"],a:1,e:"Dynamic viscosity has dimensions ML⁻¹T⁻¹."},
+{q:"Which of the following is dimensionless?",o:["Force","Strain","Pressure","Power"],a:1,e:"Strain is change in length divided by original length."},
+{q:"One newton is equal to:",o:["10³ dyne","10⁴ dyne","10⁵ dyne","10⁷ dyne"],a:2,e:"1 N = 10⁵ dyne."},
+{q:"The dimensional formula of Planck's constant is:",o:["ML²T⁻¹","MLT⁻²","ML²T⁻²","MLT⁻¹"],a:0,e:"From E = hν, h = E/ν = ML²T⁻¹."},
+{q:"The dimensional formula of pressure is:",o:["MLT⁻²","ML⁻¹T⁻²","ML²T⁻²","ML⁻²T⁻¹"],a:1,e:"Pressure = force/area."},
+{q:"Which principle checks dimensional consistency?",o:["Conservation of energy","Homogeneity of dimensions","Newton's third law","Conservation of momentum"],a:1,e:"All terms in an addition or subtraction must have the same dimensions."},
+{q:"The dimensions of angular velocity are:",o:["T⁻¹","LT⁻¹","T⁻²","LT⁻²"],a:0,e:"Angular displacement is dimensionless; angular velocity has dimensions T⁻¹."},
+{q:"Dimensional analysis cannot determine:",o:["Powers of base quantities","Dimensional consistency","Numerical constants","Dimensions of derived quantities"],a:2,e:"Pure numerical constants such as 2π cannot be found by dimensional analysis."},
+{q:"The dimensional formula of gravitational constant G is:",o:["ML³T⁻²","M⁻¹L³T⁻²","M⁻¹LT⁻²","ML⁻³T⁻²"],a:1,e:"From F = GMm/r², [G] = M⁻¹L³T⁻²."}
+];
+
+const area=document.getElementById("quiz-area");
+function renderQuiz(){
+  area.innerHTML="";
+  quiz.forEach((q,i)=>{
+    const box=document.createElement("div");
+    box.className="question";
+    box.innerHTML=`<b>Q${i+1}. ${q.q}</b><div class="options">${q.o.map((v,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${String.fromCharCode(65+j)}. ${v}</label>`).join("")}</div><div class="feedback" id="fb${i}"></div>`;
+    area.appendChild(box)
+  });
+  document.getElementById("result").textContent=""
+}
+
+document.getElementById("submitQuiz").addEventListener("click",()=>{
+  let score=0,answered=0;
+  quiz.forEach((q,i)=>{
+    const chosen=document.querySelector(`input[name="q${i}"]:checked`);
+    const fb=document.getElementById("fb"+i);
+    fb.className="feedback";
+    if(chosen){
+      answered++;
+      if(Number(chosen.value)===q.a){
+        score++;
+        fb.classList.add("correct");
+        fb.textContent="Correct! "+q.e
+      }else{
+        fb.classList.add("incorrect");
+        fb.textContent="Incorrect. Correct answer: "+String.fromCharCode(65+q.a)+". "+q.e
+      }
+    }else{
+      fb.classList.add("incorrect");
+      fb.textContent="Not answered. Correct answer: "+String.fromCharCode(65+q.a)+". "+q.e
+    }
+  });
+  document.getElementById("result").textContent=`Your score: ${score}/${quiz.length} · Answered: ${answered}/${quiz.length}`;
+});
+
+document.getElementById("resetQuiz").addEventListener("click",()=>{renderQuiz();});
+renderQuiz();
+</script>
+</body>
+</html>
